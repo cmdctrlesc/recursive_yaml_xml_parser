@@ -19,5 +19,4 @@ def xml_to_yaml(xml_filename, yaml_filename):
         nested_dict = make_nested_dict(root) 
         final_yaml = yaml.safe_dump(nested_dict, file, sort_keys=False)
 
-xml_to_yaml('XML_RateRequest_Avstrija_Economy_ESU.xml', 'new.yaml')      
 

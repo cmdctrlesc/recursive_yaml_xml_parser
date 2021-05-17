@@ -25,5 +25,3 @@ def yaml_to_xml(yaml_filename, xml_filename):
         my_xml = generate_xml(yaml_dict)
         tree = ElementTree.ElementTree(my_xml)
         tree.write(xml_filename)  
-
-yaml_to_xml('new.yaml', 'shit.xml')
